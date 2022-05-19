@@ -1,0 +1,12 @@
+{
+  "name": "hookrelay",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": ">=21" },
+  "scripts": { "test": "node --test \"test/**/*.test.js\"", "worker": "node src/worker.js" },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "3.200.0",
+    "@aws-sdk/client-sqs": "3.200.0",
+    "@aws-sdk/lib-dynamodb": "3.200.0"
+  }
+}
